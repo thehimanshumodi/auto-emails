@@ -10,7 +10,7 @@ def automatic_email():
     message = (f"Dear {user}, Welcome to Thecleverprogrammer")
     s = smtplib.SMTP('smtp.gmail.com', 587)
     s.starttls()
-    s.login("modihimanshu66@gmail.com", "ejxdddusaixssgqx")
+    s.login("Enter your mail", "Enter App password")
     s.sendmail('&&&&&&&&&&&', email, message)
     print("Email Sent!")
     
